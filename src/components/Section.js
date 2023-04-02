@@ -19,7 +19,7 @@ const Section = () => {
             </Row> */}
             <Row>
                 <Col sm>
-                    <Image src={img} height={450}></Image>
+                    <Image src={img} height={500}></Image>
                 </Col>
                 <Col sm className="section-desc">
                     <Row>

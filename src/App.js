@@ -6,7 +6,7 @@ import './styles/app.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
-
+import Email from './components/Email';
 
 
 const App = () => {
@@ -18,6 +18,7 @@ const App = () => {
       </div>
       <Section />
       <Cards />
+      <Email />
       <Footer />
     </div>
   );
