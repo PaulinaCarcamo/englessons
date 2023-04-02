@@ -1,0 +1,22 @@
+
+.section-container {
+    padding: 100px;
+}
+
+.section-container h4 {
+    color: #4e54c8;
+    font-weight: 600;
+}
+
+.section-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.animated-number, .increase-icon {
+    color: orange;
+    font-size: 35px;
+    font-weight: 600;
+}
+

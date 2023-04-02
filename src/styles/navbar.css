@@ -1,0 +1,9 @@
+.navbar {
+    background: #4e54c8;
+    /* position: absolute; */
+    /* z-index: 1; */
+}
+
+.nav-container {
+    z-index: 1;
+}
