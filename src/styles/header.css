@@ -1,4 +1,4 @@
-.hero-content {
+.header-content {
     width: 100%;
     position: absolute;
     top: 25vh;
@@ -6,26 +6,26 @@
     text-align: center;
 }
 
-.hero-content h1 {
+.header-content h1 {
     user-select: none;
     color: #fff;
     font-size: 50px;
 }
 
-.hero-content .btn-one {
+.header-content .btn-one {
     background-color: #ACA9BB;
 }
 
-.hero-content .btn-one:hover{
+.header-content .btn-one:hover {
     opacity: 80%;
     background-color: #ACA9BB;
 }
 
-.hero-content .btn-two {
+.header-content .btn-two {
     background-color: #FFC259;
 }
 
-.hero-content .btn-two:hover{
+.header-content .btn-two:hover {
     opacity: 80%;
     background-color: #FFC259;
 }
@@ -168,4 +168,14 @@
         border-radius: 50%;
     }
 
+}
+
+@media only screen and (max-width: 768px) {
+    .header-content {
+        overflow: hidden;
+    }
+
+    .figures {
+        overflow: hidden;
+    }
 }

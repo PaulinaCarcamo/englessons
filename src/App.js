@@ -1,24 +1,22 @@
 // import './App.css';
-import Hero from './components/Hero';
 import TopNav from './components/TopNav';
-import Section from './components/Section';
-import './styles/app.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Cards from './components/Cards';
+import Header from './components/Header';
+import About from './components/About';
+import Featured from './components/Featured';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Email from './components/Email';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/app.css'
 
 const App = () => {
   return (
     <div>
-      <div className="header">
-        <TopNav />
-        <Hero />
-      </div>
-      <Section />
-      <Cards />
-      <Email />
+      <TopNav />
+      <Header />
+      <About />
+      <Featured />
+      <Contact />
       <Footer />
     </div>
   );

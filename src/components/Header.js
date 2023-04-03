@@ -1,23 +1,22 @@
-
 import { Button, Container, Figure, Image } from 'react-bootstrap';
-import '../styles/hero.css'
-import { images } from '../data/images';
 
-const img = images[0].img
+import { header } from '../data/header.js'
+import '../styles/header.css'
 
-const Hero = () => {
+const Header = () => {
     return (
         <div>
-            <div className="hero-content">
-                <h1>Mr. Avila's</h1>
-                <h1>English Lessons</h1>
-                <Button size="lg" className="btn-one">This button</Button>
-                {' '}
-                <Button size="lg" className="btn-two">This button</Button>
-                <div>
-                    <Image src={img} height={400}></Image>
+            {header.map((item) => (
+                <div className="header-content">
+                    <h1>{item.title}</h1>
+                    <h1>{item.subtitle}</h1>
+                    <Button className="btn-one mx-1">Send me an Email</Button>
+                    <Button className="btn-two mx-1">Send me a Text</Button>
+                    <div>
+                        <Image src={item.img} height={400}></Image>
+                    </div>
                 </div>
-            </div>
+            ))}
 
             <div className="fig-container">
                 <Container className="figures">
@@ -37,4 +36,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default Header;

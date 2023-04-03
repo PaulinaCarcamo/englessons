@@ -1,0 +1,23 @@
+.section-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.section-wrapper h4 {
+    color: #4e54c8;
+    font-weight: 600;
+}
+
+.animated-numbers {
+display: inline-block;
+padding-right: 40px;
+}
+
+.animated-number,
+.increase-icon {
+    color: orange;
+    font-size: 35px;
+    font-weight: 600;
+}
+

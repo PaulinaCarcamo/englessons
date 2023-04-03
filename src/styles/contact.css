@@ -1,0 +1,9 @@
+.contact-section {
+    background-color: transparent;
+    opacity: 0.8;
+    background-image:
+        radial-gradient(#444df780 0.050em, transparent 0.050em),
+        radial-gradient(#444df780 0.050em, transparent 0.050em);
+    background-size: 20px 20px;
+    background-position: 0 0, 12px 12px;
+}
