@@ -1,29 +1,32 @@
-import { Button, Form, Stack } from 'react-bootstrap';
-
-import { contact } from '../data/contact';
+import { Button, Col, Container, Form, Row, Stack } from 'react-bootstrap';
+import { contact, buttons } from '../data/contact.js';
 import '../styles/contact.css';
 
 const Contact = () => {
     return (
-        <div className="contact-section">
-            {contact.map((item) => (
+        <div className="contact-container">
+            <Container className="py-5 mb-2">
+                <Row className="justify-content-md-center py-sm-5">
+                    <Col lg={6} className="text-center">
+                        {contact.map((item) => (
+                            <Stack>
+                                <h3>{item.title}</h3>
+                                <h2>{item.subtitle}</h2>
+                                <h5>{item.paragraph}</h5>
+                            </Stack>
+                        ))}
 
-                <div class="text-center py-5 my-2">
-                    {/* <img class="d-block mx-auto" src={img} alt="" height="57" /> */}
-                    <h2>{item.title}</h2>
-                    <h1>{item.subtitle}</h1>
-                    <div class="col-lg-6 mx-auto">
-                        <p class="lead mb-4">{item.paragraph}</p>
-
-                        <Stack direction="horizontal" gap={3} className="form-items">
-                            <Form.Control className="me-auto" placeholder="Add your email here..." />
-                            <Button variant="secondary">Submit</Button>
-                            <div className="vr" />
-                            <Button variant="outline-danger">Home</Button>
+                        <Stack direction="horizontal" gap={2}>
+                            <Form.Control placeholder="Add your message here..." className="border-2" />
+                            {buttons.map((item) => (
+                                <Button className="btn btn-light text-light border-0 mx-1 my-3">
+                                    {item.btn}
+                                </Button>
+                            ))}
                         </Stack>
-                    </div>
-                </div>
-            ))}
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 }

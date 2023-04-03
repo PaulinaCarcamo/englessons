@@ -1,5 +1,4 @@
 // import './App.css';
-import TopNav from './components/TopNav';
 import Header from './components/Header';
 import About from './components/About';
 import Featured from './components/Featured';
@@ -12,7 +11,7 @@ import './styles/app.css'
 const App = () => {
   return (
     <div>
-      <TopNav />
+      {/* <TopNav /> */}
       <Header />
       <About />
       <Featured />

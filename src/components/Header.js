@@ -1,39 +1,43 @@
 import { Button, Container, Figure, Image } from 'react-bootstrap';
-
-import { header } from '../data/header.js'
+import { content, buttons } from '../data/header.js'
+import TopNav from './TopNav.js';
 import '../styles/header.css'
 
 const Header = () => {
     return (
-        <div>
-            {header.map((item) => (
+        <div className="header-container">
+            <TopNav />
+
+            {content.map((item) => (
                 <div className="header-content">
                     <h1>{item.title}</h1>
                     <h1>{item.subtitle}</h1>
-                    <Button className="btn-one mx-1">Send me an Email</Button>
-                    <Button className="btn-two mx-1">Send me a Text</Button>
+
+                    {buttons.map((item) => (
+                        <Button className="btn btn-light text-light border-0 mx-1 my-3">
+                            {item.btn}
+                        </Button>
+                    ))}
                     <div>
-                        <Image src={item.img} height={400}></Image>
+                        <Image src={item.img} height={300} />
                     </div>
                 </div>
             ))}
 
-            <div className="fig-container">
-                <Container className="figures">
-                    <Figure className="fig-item"></Figure>
-                    <Figure className="fig-item"></Figure>
-                    <Figure className="fig-item"></Figure>
-                    <Figure className="fig-item"></Figure>
-                    <Figure className="fig-item"></Figure>
-                    <Figure className="fig-item"></Figure>
-                    <Figure className="fig-item"></Figure>
-                    <Figure className="fig-item"></Figure>
-                    <Figure className="fig-item"></Figure>
-                    <Figure className="fig-item"></Figure>
-                </Container>
-            </div>
+            <Container className="figures">
+                <Figure className="fig-item" />
+                <Figure className="fig-item" />
+                <Figure className="fig-item" />
+                <Figure className="fig-item" />
+                <Figure className="fig-item" />
+                <Figure className="fig-item" />
+                <Figure className="fig-item" />
+                <Figure className="fig-item" />
+                <Figure className="fig-item" />
+                <Figure className="fig-item" />
+            </Container>
         </div>
-    )
+    );
 }
 
 export default Header;

@@ -1,3 +1,3 @@
-export const topnav = [ "home", "about", "courses", "contact" ]
+export const navlinks = [ "home", "about", "courses", "contact", "join", "login" ]
 
 export const logo = [ "Mr. Ávila"]
