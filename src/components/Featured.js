@@ -4,7 +4,7 @@ import '../styles/featured.css'
 
 const Featured = () => {
     return (
-        <div>
+        <div id="featured">
             <Container className="text-sm-center mb-3">
                 {featured.map((item) => (
                     <div>
@@ -20,13 +20,13 @@ const Featured = () => {
                         {cards.map((item) => (
                             <Col sm>
                                 <Card className="card border-2 rounded-4 py-2">
-                                    <Card.Body className="d-flex flex-column align-items-center">
+                                    <Card.Body className="card-body d-flex flex-column align-items-center">
                                         <Image src={item.img} height={80} className="mb-3"></Image>
                                         <Card.Title><h5>{item.title}</h5></Card.Title>
                                         <Card.Subtitle><h6>{item.subtitle}</h6></Card.Subtitle>
                                         <Card.Text><p>{item.paragraph}</p></Card.Text>
                                     </Card.Body>
-                                    <button className="card-button">More info</button>
+                                    {/* <button className="card-button">Contact me!</button> */}
                                 </Card>
                             </Col>
                         ))}

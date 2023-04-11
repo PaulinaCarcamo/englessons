@@ -1,21 +1,21 @@
 export const about = [
     {
-        title: 'Who we are',
-        subtitle: 'We Provide English Lessons That Helps You Succeed',
-        paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting has been the industrys standard dummy text. Vivamus ullam corper text of the printing and typesetting. Lorem Ipsum is simply dummy text of the printing and typesetting has been the industrys standard dummy text.',
-        img: 'https://i.postimg.cc/cHws5rLp/3donlearning.png'
+        title: "Let's speak English!",
+        subtitle: "La diferencia entre saber y hablar inglés",
+        paragraph: "En un mundo cada vez más globalizado, hablar inglés es más que una herramienta para mejorar el currículum: es una necesidad para poder comunicarse. Además, al igual que nuestro idioma nativo, el inglés incorpora modismos y frases que son parte de la conversación en el día a día. Es por esto que, es de suma importancia desarrollar habilidades que nos permitan expresar ideas de manera eficiente.",
+        img: "https://i.postimg.cc/cHws5rLp/3donlearning.png"
     }
 ]
 
 export const numbers = [
     {
-        value: 500,
-        concept: 'Students taught',
-        symbol: '+'
+        value:  373,
+        concept: "Hablantes Nativos",
+        symbol: " M"
     },
     {
-        value: 100,
-        concept: 'Professionalism',
-        symbol: '%'
+        value: 1080,
+        concept: "Hablantes No Nativos",
+        symbol: " M"
     }
 ]

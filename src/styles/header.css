@@ -19,7 +19,7 @@
 }
 
 .btn:nth-of-type(n) {
-    background-color: #ACA9BB;
+    background-color: #919191;
     transition: 0.5s;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .btn:nth-of-type(2) {
-    background-color: #FFC259;
+    background-color: #FFB448;
 }
 
 .figures {

@@ -4,4 +4,18 @@
     color: #fff;
     overflow: hidden;
     margin-top: -1em;
+    text-align: center;
+}
+
+.icon {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    transform: scale(1.05);
+}
+
+.copyright {
+    user-select: none;
 }

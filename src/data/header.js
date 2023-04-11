@@ -8,11 +8,13 @@ export const content = [
 
 export const buttons = [
     {
-        btn: "Send me an email",
-        url: "email@email.com"
+        btn: "Contacto",
+        email: "darioaaron.avila@gmail.com",
+        contact: "mailto:darioaaron.avila@gmail.com?subject=clases&body=Hello!"
     },
     {
-        btn: "Send me a text",
-        url: "+5691234500"
+        btn: "Contacto",
+        phone: "56972583179",
+        contact: "https://wa.me/56972583179?text=Hello!"
     }
 ]

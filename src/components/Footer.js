@@ -5,23 +5,19 @@ import "../styles/footer.css";
 
 const Footer = () => {
     return (
-        <div>
+        <div id="contact">
             <section>
                 <div className="wave"></div>
             </section>
 
-            <Container fluid className="footer">
-                <Row className="d-flex flex-column text-center g-3">
-                    <Col>
-                        <Image height={30} src="" />
-                    </Col>
+            <Container fluid className="footer pb-4">
+                {icons.map((item) => (
+                    <Image className="icon mx-3 mb-4" height={30} src={item} alt="icon" />
+                ))}
 
-                    {content.map((item) => (
-                        <Col>
-                            <p>&copy; {item}</p>
-                        </Col>
-                    ))}
-                </Row>
+                {content.map((item) => (
+                    <p className="copyright">&copy; {item}</p>
+                ))}
             </Container>
         </div>
     );
