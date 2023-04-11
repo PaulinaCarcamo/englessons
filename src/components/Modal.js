@@ -9,6 +9,7 @@ const ModalSm = () => {
 
     return (
         <div>
+
             <Button onClick={() => setSmShow(true)} className="modalbutton me-2">
                 Small modal
             </Button>
@@ -25,7 +26,7 @@ const ModalSm = () => {
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <Image src="https://cdn-icons-png.flaticon.com/512/2010/2010957.png" height={70}></Image>
+                    <Image src="https://cdn-icons-png.flaticon.com/512/2010/2010957.png" height={50}></Image>
                 </Modal.Body>
             </Modal>
         </div>

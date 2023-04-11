@@ -1,15 +1,13 @@
 import { Button, Container, Figure, Image } from 'react-bootstrap';
 import { content, buttons } from '../data/header.js'
-import TopNav from './TopNav.js';
+import Navbar from './Navbar.js';
 import '../styles/header.css'
-import ModalSm from './Modal.js';
 import { Envelope, Whatsapp } from 'react-bootstrap-icons';
 
 const Header = () => {
     return (
         <div className="header-container">
-            <TopNav />
-            {/* <ModalSm /> */}
+            <Navbar />
 
             {content.map((item) => (
                 <div className="header-content">
@@ -43,7 +41,7 @@ const Header = () => {
                         border-0 rounded-3 mx-1 my-3 shadow-lg"
                         >
                             <div className="d-flex align-items-center">
-                           
+
                                 <span className="me-1">{item.btn}</span>
                                 <Whatsapp />
                             </div>

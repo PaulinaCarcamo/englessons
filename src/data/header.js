@@ -10,11 +10,11 @@ export const buttons = [
     {
         btn: "Contacto",
         email: "darioaaron.avila@gmail.com",
-        contact: "mailto:darioaaron.avila@gmail.com?subject=clases&body=Hello!"
+        contact: "mailto:darioaaron.avila@gmail.com?subject=clases&body=Estoy interesad@ en aprender inglés"
     },
     {
         btn: "Contacto",
         phone: "56972583179",
-        contact: "https://wa.me/56972583179?text=Hello!"
+        contact: "https://wa.me/56972583179?text=Estoy interesad@ en aprender inglés"
     }
 ]

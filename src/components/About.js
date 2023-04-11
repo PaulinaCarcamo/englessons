@@ -3,13 +3,8 @@ import { Container, Col, Row, Image } from 'react-bootstrap';
 import AnimatedNumber from 'animated-number-react';
 import { about, numbers } from '../data/about.js';
 import '../styles/about.css'
-import AOS from 'aos';
 
 const About = () => {
-
-    React.useEffect(() => {
-        AOS.init({ duration: 2000 });
-    }, []);
 
     const formatValue = (value) => value.toFixed(0);
     const img = about[0].img;

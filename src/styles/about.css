@@ -9,3 +9,9 @@
     font-size: 2.2em;
     font-weight: 600;
 }
+
+@media only screen and (max-width: 768px) {
+    .animated-numbers {
+        padding-right: 1em;
+    }
+}
