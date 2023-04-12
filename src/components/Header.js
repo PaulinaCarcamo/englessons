@@ -1,8 +1,9 @@
-import { Button, Container, Figure, Image } from 'react-bootstrap';
+import { Button, Container, Figure } from 'react-bootstrap';
+import { ChatLeftDotsFill, EnvelopeFill } from 'react-bootstrap-icons';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { content, buttons } from '../data/header.js'
 import Navbar from './Navbar.js';
 import '../styles/header.css'
-import { Envelope, Whatsapp } from 'react-bootstrap-icons';
 
 const Header = () => {
     return (
@@ -30,7 +31,7 @@ const Header = () => {
                         >
                             <div className="d-flex align-items-center">
                                 <span className="me-1">{item.btn}</span>
-                                <Envelope />
+                                <EnvelopeFill />
                             </div>
                         </Button>
                     ))}
@@ -41,15 +42,21 @@ const Header = () => {
                         border-0 rounded-3 mx-1 my-3 shadow-lg"
                         >
                             <div className="d-flex align-items-center">
-
                                 <span className="me-1">{item.btn}</span>
-                                <Whatsapp />
+                                <ChatLeftDotsFill />
                             </div>
                         </Button>
                     ))}
 
                     <div>
-                        <Image src={item.img} height={300} alt="img" />
+                        <LazyLoadImage
+                            alt="img"
+                            effect="blur"
+                            height={320}
+                            src={item.img}
+                        // placeholder={}
+                        />
+                        {/* <Image src={item.img} height={300} alt="img" /> */}
                     </div>
                 </div>
             ))}

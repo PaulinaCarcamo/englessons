@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { Container, Col, Row, Image } from 'react-bootstrap';
 import AnimatedNumber from 'animated-number-react';
+import { Container, Col, Row } from 'react-bootstrap';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { about, numbers } from '../data/about.js';
 import '../styles/about.css'
 
@@ -14,10 +15,15 @@ const About = () => {
             <Container>
                 <Row sm={1} md={1} lg={2} className="d-flex align-items-center">
                     <Col sm className="d-none d-sm-block text-center">
-                        <Image src={img} height={350} alt="img" />
-                        {/* className="image" src={item.img} height={300} alt="img" */}
+                        {/* <Image src={img} height={350} alt="img" /> */}
+                        <LazyLoadImage
+                            alt="img"
+                            effect="blur"
+                            height={320}
+                            src={img}
+                        // placeholder={}
+                        />
                     </Col>
-
 
                     <Col sm className="my-5 py-md-5">
                         {about.map((item) => (

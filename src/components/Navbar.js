@@ -1,14 +1,12 @@
-
-import { Row, Col } from 'react-bootstrap';
-import { navlinks, logo } from '../data/navbar.js';
-import { Link } from 'react-scroll';
-import '../styles/navbar.css'
-
 import React, { useState } from 'react';
-// import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
-import '../styles/modal.css'
+import { Row, Col } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
+import { Link } from 'react-scroll';
+import Modal from 'react-bootstrap/Modal';
+import { navlinks, logo } from '../data/navbar.js';
+import '../styles/navbar.css'
+import '../styles/modal.css'
+// import Button from 'react-bootstrap/Button';
 
 const Navbar = () => {
 
@@ -17,8 +15,7 @@ const Navbar = () => {
     return (
         <Row className="nav-container m-0 d-flex g-3 py-4 px-md-4 text-light">
             <Col sm className="nav-element d-flex justify-content-center justify-content-md-start">
-                <h5 className="fw-semibold">{logo}</h5>
-
+                <h5 className="fw-semibold nav-link disabled fs-5">{logo}</h5>
             </Col>
             <Col sm className="nav-element d-flex justify-content-center">
                 {navlinks.slice(0, 4).map((item) => (

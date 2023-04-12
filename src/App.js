@@ -5,6 +5,7 @@ import Featured from './components/Featured';
 import Placement from './components/Placement';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import './styles/app.css'
 
 const App = () => {
