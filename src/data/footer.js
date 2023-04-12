@@ -4,15 +4,15 @@ export const content = [
 
 export const icons = [
     {
-        icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png",
+        icon: "https://firebasestorage.googleapis.com/v0/b/englishlessons-f6c00.appspot.com/o/images%2F202020.png?alt=media&token=8bddb302-e4a0-48f1-aa08-6ff302750f14",
         url: "mailto:darioaaron.avila@gmail.com?subject=clases&body=Estoy interesad@ en tomar clases de inglés"    
     },
     {
-        icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Google_Drive_icon_%282020%29.svg/1147px-Google_Drive_icon_%282020%29.svg.png",
+        icon: "https://firebasestorage.googleapis.com/v0/b/englishlessons-f6c00.appspot.com/o/images%2F202022.png?alt=media&token=85cd05f7-9c55-490b-9a3f-0c4d115e41b9",
         url: "https://wa.me/56972583179?text=Quisiera recibir el link para acceder al material de Google Drive"
     },
     {
-        icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Google_Meet_icon_%282020%29.svg/2491px-Google_Meet_icon_%282020%29.svg.png",
+        icon: "https://firebasestorage.googleapis.com/v0/b/englishlessons-f6c00.appspot.com/o/images%2F202021.png?alt=media&token=b4b300df-c76b-4b6b-ae35-660595b18aa8",
         url: "https://wa.me/56972583179?text=Quisiera recibir el link de Google Meet para la clase online de hoy"
     }
 ]
