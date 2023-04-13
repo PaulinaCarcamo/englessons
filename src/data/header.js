@@ -9,12 +9,13 @@ export const content = [
 export const buttons = [
     {
         btn: "Contacto",
-        email: "darioaaron.avila@gmail.com",
-        contact: "mailto:darioaaron.avila@gmail.com?subject=clases&body=Estoy interesad@ en aprender inglés"
+        phone: "56972583179",
+        contact: "https://wa.me/56972583179?text=Estoy interesad@ en tomar clases de inglés online"
     },
     {
-        btn: "Contacto",
-        phone: "56972583179",
-        contact: "https://wa.me/56972583179?text=Estoy interesad@ en aprender inglés"
-    }
+        btn: "Agendar",
+        email: "darioaaron.avila@gmail.com",
+        contact: "https://calendly.com/profesorenlinea/60min"
+    },
+
 ]

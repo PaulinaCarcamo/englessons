@@ -6,7 +6,7 @@ import "../styles/footer.css";
 
 const Footer = () => {
     return (
-        <div id="contact">
+        <div id="email">
             <section>
                 <div className="wave"></div>
             </section>

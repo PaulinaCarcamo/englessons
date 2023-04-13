@@ -15,7 +15,7 @@ export const cards = [
     },
     {
         title: "Actividades",
-        subtitle: "Gramática, lectura, uso de inglés y más",
+        subtitle: "Comprensión auditiva y de lectura",
         paragraph: "Practica con actividades interactivas en nuestra plataforma en el horario que estimes conveniente.",
         img: "https://firebasestorage.googleapis.com/v0/b/englishlessons-f6c00.appspot.com/o/images%2F2997319.png?alt=media&token=57bf2ce2-2eff-4b96-990f-2e0411fa1611"
     },
@@ -40,7 +40,7 @@ export const cards = [
     {
         title: "Evaluación",
         subtitle: "Exámenes con resultados inmediatos",
-        paragraph: "Realiza exámenes orales y escritos para consolidar los aprendizajes esperados según cada nivel.",
+        paragraph: "Realiza exámenes orales y escritos para consolidar los aprendizajes esperados según tu nivel.",
         img: "https://firebasestorage.googleapis.com/v0/b/englishlessons-f6c00.appspot.com/o/images%2F9079294.png?alt=media&token=dd8d2ea3-0091-4c3e-b889-5eaa6da31d48"
     },
 ]

@@ -1,5 +1,5 @@
 import { Button, Container, Figure } from 'react-bootstrap';
-import { ChatLeftDotsFill, EnvelopeFill } from 'react-bootstrap-icons';
+import { Calendar2WeekFill, SendFill } from 'react-bootstrap-icons';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { content, buttons } from '../data/header.js'
 import Navbar from './Navbar.js';
@@ -31,7 +31,7 @@ const Header = () => {
                         >
                             <div className="d-flex align-items-center">
                                 <span className="me-1">{item.btn}</span>
-                                <EnvelopeFill />
+                                <SendFill />
                             </div>
                         </Button>
                     ))}
@@ -43,7 +43,7 @@ const Header = () => {
                         >
                             <div className="d-flex align-items-center">
                                 <span className="me-1">{item.btn}</span>
-                                <ChatLeftDotsFill />
+                       <Calendar2WeekFill/>
                             </div>
                         </Button>
                     ))}
