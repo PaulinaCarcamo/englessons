@@ -1,8 +1,7 @@
 import { Button, Col, Container, Row, Stack } from 'react-bootstrap';
-// import { Button, Col, Container, Form, Row, Stack } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { placement, buttons } from '../data/placement.js';
 import '../styles/placement.css';
-import { Link } from 'react-router-dom';
 
 const Placement = () => {
     return (
@@ -17,15 +16,6 @@ const Placement = () => {
                                 <h5>{item.paragraph}</h5>
                             </Stack>
                         ))}
-
-                        {/* <Stack direction="horizontal" gap={2}>
-                            <Form.Control placeholder="Add your message here..." className="border-2" />
-                            {buttons.map((item) => (
-                                <Button className="btn btn-light text-light border-0 mx-1 my-3">
-                                    {item.btn}
-                                </Button>
-                            ))}
-                        </Stack> */}
 
                         {buttons.map((item) => (
                             <Link to={item.url}>

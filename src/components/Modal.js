@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import { Image } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import '../styles/modal.css'
-import { Image } from 'react-bootstrap';
 
 const ModalSm = () => {
     const [smShow, setSmShow] = useState(false);

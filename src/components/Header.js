@@ -15,15 +15,6 @@ const Header = () => {
                     <h1>{item.title}</h1>
                     <h1>{item.subtitle}</h1>
 
-                    {/* {buttons.map((item) => (
-                        <Button href={item.contact}
-                        className="btn btn-link text-decoration-none btn-light text-light 
-                        border-0 rounded-3 mx-1 my-3 shadow-lg"
-                        >
-                            {item.btn}
-                        </Button>
-                    ))} */}
-
                     {buttons.slice(0, 1).map((item) => (
                         <Button href={item.contact}
                             className="btn btn-link text-decoration-none btn-light text-light 
