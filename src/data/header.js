@@ -1,6 +1,6 @@
 export const content = [
     {
-        title: "Mr. Ávila",
+        title: "Profesor en Línea",
         subtitle: "English Lessons",
         img: "https://i.postimg.cc/t4zqr3ZW/3dwebinars.png"
     }
