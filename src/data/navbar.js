@@ -10,14 +10,14 @@ export const logo = [
 export const modal = [
     {
         navlink: "levels",
-        title: "Etapas de Aprendizaje",
-        url: "https://i.postimg.cc/FRWs0Wyh/NIVELESIDIOMA.png"
+        title: "Niveles de Aprendizaje",
+        url: "https://i.postimg.cc/FRWs0Wyh/NIVELESIDIOMA.png",
     },
     {
         navlink: "skills",
         title: "Habilidades según Nivel",
-        url: "https://i.postimg.cc/vG5Xrggr/Niveles010203.jpg"
-    }
+        url: "https://i.postimg.cc/dvxSkQdy/Niveles010203.jpg",
+    },
 ]
 
 // url: "https://wa.me/send?text=https://profesor.click"
