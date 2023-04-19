@@ -14,8 +14,8 @@ export const buttons = [
     },
     {
         btn: "Agendar",
-        email: "darioaaron.avila@gmail.com",
-        contact: "https://calendly.com/profesorenlinea/60min"
+        email: "profesor.click@outlook.com",
+        contact: "https://calendly.com/profesorclick/clase60min"
     },
 
 ]
